@@ -8,30 +8,44 @@ body {
 main {
     display: flex;
     align-items: center;
-    background-image: url(../images/dual-monitor-setup-with-pc.avif);
+    background-color: black;
+    // background-image: url(../images/dual-monitor-setup-with-pc.avif);
     background-size: cover;
     height: 90%;
     color: #ffffff;
-}
 
-.top {
-    span{
-        color: green;
+    .container {
+        height: 100%;
     }
 
-    h1 {
-        span {
-            color: #7516ce;
+    .top {
+        display: flex;
+        align-items: center;
+        height: 80%;
+        span{
+            color: green;
+        }
+    
+        h1 {
+            span {
+                color: #7516ce;
+            }
+        }
+    
+        h3 {
+            color: blue;
+        }
+    
+        button {
+            border-radius: 50px;
+            background-color: #7516ce;
         }
     }
 
-    h3 {
-        color: blue;
-    }
-
-    button {
-        border-radius: 50px;
-        background-color: #7516ce;
+    .duration {
+        border-left: solid;
+        border-right: solid;
+        border-color: black;
     }
 }
 
