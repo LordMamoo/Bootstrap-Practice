@@ -16,50 +16,58 @@ main {
 main .container {
   height: 100%;
 }
-main .top {
+main #top {
   display: flex;
   align-items: center;
   height: 80%;
   font-size: 20px;
 }
-main .top .header {
+main #top #header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 100%;
 }
-main .top h1 {
-  font-size: 50px;
-  padding: 2rem;
+main #top #header #head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem;
+  height: 80%;
 }
-main .top h1 span {
+main #top #header h1 {
+  font-size: 80px;
+}
+main #top #header h1 span {
   color: #7516ce;
 }
-main .top h3 {
-  padding-bottom: 2rem;
-}
-main .top button {
-  width: 20%;
-  border-radius: 50px;
+main #top #header button {
   background-color: #7516ce;
+  color: white;
+  border-radius: 50px;
 }
-main .top button:hover {
-  background-color: white;
+main #top #header button:hover {
+  background-color: #8c56be;
 }
-main .duration {
+main #duration {
   border-left: solid;
   border-right: solid;
-  border-color: black;
+  border-color: white;
 }
 
 footer {
+  display: flex;
+  align-items: center;
   height: 10%;
   background-color: lightgray;
 }
-footer .nav {
+footer a {
   color: black;
   text-decoration: none;
   text-align: center;
   height: 100%;
-  border: solid;
+}
+footer a:hover {
+  color: blue;
 }/*# sourceMappingURL=style.css.map */
