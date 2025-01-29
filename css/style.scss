@@ -22,23 +22,39 @@ main {
         display: flex;
         align-items: center;
         height: 80%;
-        span{
-            color: green;
+        font-size: 20px;
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
         }
+
+        // p {
+        //     padding: 1rem;
+        // }
     
         h1 {
+            font-size: 50px;
+            padding: 2rem;
+
             span {
                 color: #7516ce;
             }
         }
     
         h3 {
-            color: blue;
+            padding-bottom: 2rem;
         }
     
         button {
+            width: 20%;
             border-radius: 50px;
             background-color: #7516ce;
+        }
+        button:hover {
+            background-color: white;
         }
     }
 
